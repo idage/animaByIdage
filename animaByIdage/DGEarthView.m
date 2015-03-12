@@ -35,7 +35,7 @@
         [self addSubview:imageViewEarth];
         
         
-        imageView = [[UIImageView alloc]initWithFrame:CGRectMake(150, 260, 30, 60)];
+        imageView = [[UIImageView alloc]initWithFrame:CGRectMake(150, 260, 33, 66)];
         [self addSubview:imageView];
         imageView.image=[UIImage imageNamed:@"fire2@3X(1)"];
         [self startAnimation];
@@ -65,7 +65,7 @@
     
     imageView.transform = CGAffineTransformMakeRotation(angle * (M_PI / 180.0f));
     // imageView.layer.position =CGPointMake(2.3,2.6);
-    imageView.layer.anchorPoint=CGPointMake(5, 0.5);
+    imageView.layer.anchorPoint=CGPointMake(4.5, 0.5);
     [UIView commitAnimations];
     
     
@@ -93,7 +93,7 @@
 }
 -(void)endAnimationEarth
 {
-    angleEarth += 5*_EarthSepped;
+    angleEarth += 1*_EarthSepped;
     [self startAnimationEarth];
 }
 

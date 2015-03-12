@@ -42,7 +42,7 @@
     itemBigCloudY=1.5;
     itemCloudY=1;
     itemletterY=2;
-    self.backgroundColor =[UIColor blueColor];
+    self.backgroundColor =[UIColor colorWithRed:68/255.0 green:175/255.0 blue:255/255.0 alpha:1];
     CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(setNeedsDisplay)];
     [link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     
@@ -50,12 +50,10 @@
     [self addSubview:ainmeView];
     
     
-    _CloudY=72;
+    _CloudY=121;
     
-   // if (_animaType==1) {
         _BigCloudY=79;
-     //   _CloudY=62;
-        _letterY=70;
+        _letterY=120;
 
     
 
@@ -109,25 +107,25 @@
         
         //D
         self.letterY-=itemletterY/10;
-        if (self.letterY <=65 ) {
+        if (self.letterY <=115 ) {
             CGFloat item =   fabsf(itemletterY);
             itemletterY=-item;
             
-        }else if (self.letterY>=75)
+        }else if (self.letterY>=125)
         {
             CGFloat item =   fabsf(itemletterY);
             itemletterY=item;
         }
         UIImage *imageD = [UIImage imageNamed:@"D@3X"];
-        [imageD drawAtPoint:CGPointMake(85,self.letterY )];
+        [imageD drawAtPoint:CGPointMake(107,self.letterY )];
         //小云
         self.CloudY-=itemCloudY/10;
         
-        if (self.CloudY <=70 ) {
+        if (self.CloudY <=120 ) {
             CGFloat item =   fabsf(itemCloudY);
             itemCloudY=-item;
             
-        }else if (self.CloudY>=85)
+        }else if (self.CloudY>=130)
         {
             CGFloat item =   fabsf(itemCloudY);
             itemCloudY=item;

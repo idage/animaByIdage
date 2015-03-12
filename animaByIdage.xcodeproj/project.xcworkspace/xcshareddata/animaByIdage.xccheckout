@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30288A25-DDA3-4503-94C9-C8DAD24DBD9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>animaByIdage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EE0AE1D92E9A733C48F1020C85E914D2C079E87</key>
+		<string>https://github.com/idage/animaByIdage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>animaByIdage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EE0AE1D92E9A733C48F1020C85E914D2C079E87</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/idage/animaByIdage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EE0AE1D92E9A733C48F1020C85E914D2C079E87</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EE0AE1D92E9A733C48F1020C85E914D2C079E87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>animaByIdage</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -22,7 +22,7 @@
     
     animaView = [[DGAaimaView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:animaView];
-    [animaView DGAaimaView:animaView BigCloudSpeed:1.5 smallCloudSpeed:1 earthSepped:0.5 huojianSepped:2.0 littleSpeed:2];
+    [animaView DGAaimaView:animaView BigCloudSpeed:1.2 smallCloudSpeed:0.7 earthSepped:0.01 huojianSepped:2.0 littleSpeed:1];
     animaView.animaType=UIClouldAnimaFromUp;
 }
 
